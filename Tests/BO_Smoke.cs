@@ -35,6 +35,7 @@ namespace Tests
             catch (Exception ex)
                 {
                 Console.WriteLine(ex.StackTrace);
+                Assert.AreEqual(AllPages.BoUser.verAssert(), "Add Use"); // Not Visible Works
                 }
             }
 

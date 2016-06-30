@@ -14,7 +14,7 @@ namespace Framework
     {
         //private static IWebDriver _webDriver = new FirefoxDriver();
 
-        private static IWebDriver _webDriver = new ChromeDriver(@"C:\Program Files (x86)\ChromeDriver");
+        private static IWebDriver _webDriver = new ChromeDriver();
         
         
           //  ChromeOptions options = new ChromeOptions();
