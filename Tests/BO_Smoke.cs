@@ -28,6 +28,8 @@ namespace Tests
 
                 AllPages.HomePage.CompSearch();
 
+                Thread.Sleep(10000);
+
                 AllPages.HomePage.AddCompUser();
 
                 Browser.Close();
@@ -55,7 +57,7 @@ namespace Tests
 
                 AllPages.BoUser.FIUserList();
 
-               Browser.Close();
+                Browser.Close();
                 }
 
             catch (Exception ex)

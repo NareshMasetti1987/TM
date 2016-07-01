@@ -75,7 +75,7 @@ namespace Framework.Pages
         public void CompSearch()
             {
             SearchType();
-            CIFValue.SendKeys("TAA0015");
+            CIFValue.SendKeys("TAA0016");
             Thread.Sleep(10000);
             SearchComp.Click();
             SelectCompany.Click();
