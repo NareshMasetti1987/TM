@@ -30,15 +30,15 @@ namespace Framework.Pages
 
         //Click on Add Company user button
 
-        [FindsBy(How = How.XPath, Using = "//button[@title='Add User']")]
+        [FindsBy(How = How.XPath, Using = ".//button[@title='Add User']")]
         public IWebElement AddUserButton;
 
         //Enter User details
 
-        [FindsBy(How = How.XPath, Using = "//input[@id='ctrl_textbox_00001']")]
+        [FindsBy(How = How.XPath, Using = ".//input[@id='ctrl_textbox_00001']")]
         public IWebElement UserName;
 
-        [FindsBy(How = How.XPath, Using = "//input[@id='ctrl_textbox_00002']")]
+        [FindsBy(How = How.XPath, Using = ".//input[@id='ctrl_textbox_00002']")]
         public IWebElement LoginID;
 
         [FindsBy(How = How.XPath, Using = ".//input[@id='ctrl_textbox_00004']")]
@@ -79,6 +79,7 @@ namespace Framework.Pages
             Thread.Sleep(10000);
             SearchComp.Click();
             SelectCompany.Click();
+            Thread.Sleep(20000);
             AddUserButton.Click();
 
             }
