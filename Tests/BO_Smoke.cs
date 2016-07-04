@@ -82,7 +82,7 @@ namespace Tests
                 AllPages.RsaPage.RsaQues1();
 
                 AllPages.BoUser.FIUserRoles();
-                //Browser.Close();
+                Browser.Close();
                 }
 
             catch (Exception ex)

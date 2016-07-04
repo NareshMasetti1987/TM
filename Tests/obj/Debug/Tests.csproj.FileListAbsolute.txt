@@ -1,4 +1,3 @@
-C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\chromedriver.exe
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\Tests.dll.config
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\Tests.dll
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\Tests.pdb
