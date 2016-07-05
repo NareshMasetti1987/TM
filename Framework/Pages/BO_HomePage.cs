@@ -12,6 +12,8 @@ namespace Framework.Pages
     {
     public class BO_HomePage
         {
+
+        #region ElementIdentification
         string DATETIME = DateTime.Now.ToString("MMddhhmmss");
         string MAILID = "@jackhenry.com";
 
@@ -61,6 +63,8 @@ namespace Framework.Pages
 
         [FindsBy(How = How.XPath, Using = ".//button[contains(.,'Confirm')]")]
         public IWebElement ConfirmAddUser;
+
+        #endregion
 
         public void SearchType()
             {
