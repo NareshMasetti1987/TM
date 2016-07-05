@@ -20,12 +20,12 @@ namespace Tests
                 AllPages.BO_Login.Goto();
 
                 Assert.IsTrue(AllPages.BO_Login.IsAt());
-
+                Thread.Sleep(20000);
                 AllPages.BO_Login.Login();
-
+                Thread.Sleep(20000);
                 AllPages.RsaPage.RsaQues();
                 AllPages.RsaPage.RsaQues1();
-
+                Thread.Sleep(20000);
                 AllPages.HomePage.CompSearch();
 
                 Thread.Sleep(10000);
@@ -38,6 +38,8 @@ namespace Tests
                 {
                 Console.WriteLine(ex.StackTrace);
                 Assert.AreEqual(AllPages.BoUser.verAssert(), "Add Use"); // Not Visible Works
+                Browser.Close();
+
                 }
             }
 
@@ -51,9 +53,14 @@ namespace Tests
                 {
                 AllPages.BO_Login.Goto();
                 Assert.IsTrue(AllPages.BO_Login.IsAt());
+                Thread.Sleep(10000);
+
                 AllPages.BO_Login.Login();
+                Thread.Sleep(10000);
+
                 AllPages.RsaPage.RsaQues();
                 AllPages.RsaPage.RsaQues1();
+                Thread.Sleep(10000);
 
                 AllPages.BoUser.FIUserList();
 
@@ -64,6 +71,7 @@ namespace Tests
                 {
                 Console.WriteLine(ex.StackTrace);
                 Assert.AreEqual(AllPages.BoUser.verAssert(), "Add Use"); // Not Visible Works
+                Browser.Close();
 
                 }
 
@@ -78,10 +86,14 @@ namespace Tests
                 AllPages.BO_Login.Goto();
                 Assert.IsTrue(AllPages.BO_Login.IsAt());
                 AllPages.BO_Login.Login();
+                Thread.Sleep(10000);
+
                 AllPages.RsaPage.RsaQues();
                 AllPages.RsaPage.RsaQues1();
+                Thread.Sleep(10000);
 
                 AllPages.BoUser.FIUserRoles();
+                //test finish
                 Browser.Close();
                 }
 
@@ -89,6 +101,7 @@ namespace Tests
                 {
                 Console.WriteLine(ex.StackTrace);
                 Assert.AreEqual(AllPages.BoUser.verAssert(), "Add Use"); // Not Visible Works
+                Browser.Close();
 
                 }
 

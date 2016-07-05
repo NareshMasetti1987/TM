@@ -10,3 +10,5 @@ C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\obj\Debug\Tests.dll
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\obj\Debug\Tests.pdb
+C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\log4net.dll
+C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Tests\bin\Debug\log4net.xml

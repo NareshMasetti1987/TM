@@ -6,12 +6,18 @@ using System.Collections.Generic;
 using OpenQA.Selenium.Remote;
 using System;
 using System.Linq;
+using log4net;
+using Framework.ComponentHelper;
 
 
 namespace Framework
 {
     public static class Browser
     {
+
+        // Logs
+        private static readonly ILog Logger = Log4NetHelper.GetXmlLogger(typeof(Browser));
+
         //private static IWebDriver _webDriver = new FirefoxDriver();
 
         private static IWebDriver _webDriver = new ChromeDriver();
@@ -33,12 +39,14 @@ namespace Framework
 
         public static void Goto(string url)
         {
+        Logger.Info("Will open url");
             _webDriver.Navigate().GoToUrl(_BoUrl + url);
             _webDriver.Manage().Window.Maximize();
             _webDriver.Manage().Timeouts().SetPageLoadTimeout(TimeSpan.FromSeconds(90));
             _webDriver.Manage().Timeouts().SetScriptTimeout(TimeSpan.FromSeconds(50));
             _webDriver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(40));
 
+            Logger.Info("Opened url");
 
             
         }

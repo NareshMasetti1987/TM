@@ -8,3 +8,5 @@ C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\obj\Debug\Framework.exe
 C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\obj\Debug\Framework.pdb
+C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\bin\Debug\log4net.dll
+C:\Users\VMasetti\Documents\Visual Studio 2013\Projects\FrameworkDemo\Framework\bin\Debug\log4net.xml
